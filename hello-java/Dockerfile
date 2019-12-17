@@ -25,4 +25,4 @@ EXPOSE 8080
 USER  wildfly
 
 # Run the fat JAR
-CMD   /opt/app-root/bin/run-app.sh
+CMD   chmod +x /opt/app-root/bin/run-app.sh && /opt/app-root/bin/run-app.sh
